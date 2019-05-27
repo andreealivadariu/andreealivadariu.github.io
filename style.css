@@ -1,6 +1,6 @@
 * {
 
-  margin: 12px;
+  margin: 7px;
   padding: 0;
 }
 
@@ -16,10 +16,28 @@ ul {
 }
 
 li {
-
+  display: inline-block;
+  float: left;
 }
 
-li a {
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7e609b;
+}
+ p {
+   padding: 5px;
+ }
 
 }
 
@@ -33,6 +51,20 @@ h1 {
   text-align: center;
 }
 
-h1, p {
+h1, h2, h3,p, img{
   border: 2px solid black;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.antwoord{
+  background-color: #7e609b;
+  color: #7e609b;
+
+}
+.antwoord:hover{
+  color: white;
 }
